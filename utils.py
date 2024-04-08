@@ -52,7 +52,6 @@ phi = calculate_phase_angle(powerfactor)
 # Checking the type of reactive power
 reactive_power_type = check_reactive_power_type(Q)
 
-
 # results
 print("Wirkleistung (P):", P, "Watt")
 print("Blindleistung (Q):", Q, "VAR")
