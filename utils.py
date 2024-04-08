@@ -1,8 +1,8 @@
 import math     #Import math bib
 
 # Calculation of apparent power
-def calculate_apparent_power(U, I):
-    S = U * I
+def calculate_apparent_power(U, i):
+    S = U * i
     return S
 
 # Calculation of active power
