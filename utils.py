@@ -34,11 +34,11 @@ def check_reactive_power_type(Q):
 
 # Example values ​​for voltage, current and power factor
 U = 230             # Voltage in volts
-a = 10              # Current in amperes
+i = 10              # Current in amperes
 powerfactor = 0.8   # Power factor (cos phi)
 
 # Calculation of apparent power
-S = calculate_apparent_power(U, a)
+S = calculate_apparent_power(U, i)
 
 # Calculation of active power
 P = calculate_active_power(S, powerfactor)
