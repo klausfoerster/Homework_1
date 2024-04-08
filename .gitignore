@@ -1,0 +1,6 @@
+.idea/
+__pycache__/
+calculations:
+P=U*I*cos(pi)
+S=U*I
+Q=U*I*sin(pi)
