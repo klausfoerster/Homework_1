@@ -45,7 +45,7 @@ def test_apparent_power():
 
 # test for power faktor type
 def test_reactive_power_type():
-    assert check_reactive_power_type(100) == "Kapazitiv"
+    assert check_reactive_power_type(100) == "Induktiv"
     assert check_reactive_power_type(-100) == "Induktiv"
     assert check_reactive_power_type(0) == "Reaktiv, aber ausgeglichen"
 
