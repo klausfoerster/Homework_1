@@ -1,5 +1,4 @@
 import math     #Import math bib
-import os
 
 # Calculation of apparent power
 def calculate_apparent_power(U, i):
@@ -10,6 +9,7 @@ def calculate_apparent_power(U, i):
 def calculate_active_power(S, powerfactor):
     P=S * powerfactor
     return P
+
 
 # Calculation of reactive power
 def calculate_reactive_power(S, P):
