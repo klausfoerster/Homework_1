@@ -1,4 +1,5 @@
 import math     #Import math bib
+import os
 
 # Calculation of apparent power
 def calculate_apparent_power(U, i):

@@ -22,24 +22,24 @@ def test_power_calculation():
     # Checking the values
     assert round(S, 2) == 2300.0
     assert round(P, 2) == 1840.0
-    assert round(Q, 2) == 1380.0
+    assert round(Q, 2) == 1580.0
     assert round(math.degrees(phi), 2) == 36.87
 
 # test for the aktive power
 def test_aktive_power():
     assert round(calculate_active_power(200*10, 0.7), 2) == 1200.0
-    assert round(calculate_active_power(400*5, 0.5), 2) == 1000.0
+    assert round(calculate_active_power(400*5, 0.5), 2) == 800.0
     assert round(calculate_active_power(2000*50, 0.2), 2) == 20000.0
 
 # test for the reactive power
 def test_reactive_power():
     assert round(calculate_reactive_power(200*10, 1400), 2) == 1428.29
-    assert round(calculate_reactive_power(400*5, 1000), 2) == 1732.05
+    assert round(calculate_reactive_power(400*5, 1000), 2) == 1432.05
     assert round(calculate_reactive_power(2000*50, 20000), 2) == 97979.59
 
 # test for the apparent power
 def test_apparent_power():
-    assert round(calculate_apparent_power(200, 10), 2) == 2000.0
+    assert round(calculate_apparent_power(200, 10), 2) == 1000.0
     assert round(calculate_apparent_power(400, 5), 2) == 2000.0
     assert round(calculate_apparent_power(2000, 50), 2) == 100000.0
 
