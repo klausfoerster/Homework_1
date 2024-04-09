@@ -7,8 +7,9 @@ def calculate_apparent_power(U, i):
 
 # Calculation of active power
 def calculate_active_power(S, powerfactor):
-    P = S * powerfactor
+    P=S * powerfactor
     return P
+
 
 # Calculation of reactive power
 def calculate_reactive_power(S, P):
