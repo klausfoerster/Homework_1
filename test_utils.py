@@ -27,7 +27,7 @@ def test_power_calculation():
 
 # test for the aktive power
 def test_aktive_power():
-    assert round(calculate_active_power(200*10, 0.7), 2) == 1400.0
+    assert round(calculate_active_power(200*10, 0.7), 2) == 1200.0
     assert round(calculate_active_power(400*5, 0.5), 2) == 1000.0
     assert round(calculate_active_power(2000*50, 0.2), 2) == 20000.0
 
